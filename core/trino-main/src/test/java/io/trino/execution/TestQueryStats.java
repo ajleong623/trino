@@ -290,6 +290,15 @@ public class TestQueryStats
         assertEquals(actual.getCompletedTasks(), 11);
         assertEquals(actual.getFailedTasks(), 12);
 
+
+
+
+
+        //Added print statement
+        System.out.println(actual.getTotalDrivers());
+
+
+
         assertEquals(actual.getTotalDrivers(), 13);
         assertEquals(actual.getQueuedDrivers(), 14);
         assertEquals(actual.getRunningDrivers(), 15);
